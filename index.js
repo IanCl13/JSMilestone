@@ -1,3 +1,5 @@
 function onCardClicked (e) {
-    console.log ('clicked' e.currentTarget); 
+    const target = e.currentTarget;
+    console.log (target.className); 
+    target.className = target.className.replace
 }
