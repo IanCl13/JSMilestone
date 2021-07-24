@@ -13,7 +13,7 @@ const colors = [
     'purple',
 ]
 
-const cards = [...document.querySelectorAll(.'card')];
+const cards = [...document.querySelectorAll('.card')];
     for (let color of colors ) {
         const cardAIndex = parseInt(Math.randon() * cards.length);
         const cardA = cards[cardAIndex];
@@ -74,7 +74,7 @@ if (!clickedCard) {
         clickedCard=null;
         if (combosFound === 8)
             alert('YOU WIN!')
-    }
+        }
 
     }
 }
