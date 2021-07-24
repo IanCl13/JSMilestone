@@ -24,35 +24,35 @@
     box-sizing: border-box;
 }
 
-.red {
+[data-color="red"] {
     background-color: red;
 }
 
-.green {
+[data-color="green"] {
     background-color: green;
 }
 
-.blue {
+[data-color="blue"] {
     background-color: blue;
 }
 
-.orange {
+[data-color="orange"] {
     background-color: orange;
 }
 
-.pink {
+[data-color="pink"] {
     background-color: pink;
 }
 
-.cyan {
+[data-color="cyan"] {
     background-color: cyan;
 }
 
-.yellow {
+[data-color="yellow"] {
     background-color: yellow;
 }
 
-.purple {
+[data-color="purple"] {
     background-color: purple;
 }
 
